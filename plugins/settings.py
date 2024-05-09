@@ -222,7 +222,7 @@ async def settings_query(bot, query):
      buttons.append([InlineKeyboardButton('🔙 Back', 
                       callback_data="settings#main")])
      await query.message.edit_text(
-        "<b><u>Custom Button</b></u>\n\nYou Can Set A Inline Button To Messages.\n\n<b><u>Format :</b></u>\n`[Madflix Botz][buttonurl:https://t.me/Madflix_Bots]`\n",
+        "<b><u>Custom Button</b></u>\n\nYou Can Set A Inline Button To Messages.\n\n<b><u>Format :</b></u>\n`[MAWG Botz][buttonurl:https://t.me/moviesandwebserieshubOrzz]`\n",
         reply_markup=InlineKeyboardMarkup(buttons))
   
   elif type=="addbutton":
