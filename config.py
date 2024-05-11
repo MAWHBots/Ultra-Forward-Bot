@@ -14,7 +14,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7152008766:AAHwn6x0FUwlCbL__-8_AgbOIsmdsGt-yAw") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
     DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_NAME = os.environ.get("DB_NAME", "aayushraj0281")
     OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '6444128136').split()]
 
 
